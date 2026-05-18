@@ -12,6 +12,7 @@
     --fundo-secundario: #211C1B;
     --cards: #d3ad7f;
     --white: #ffffff;
+    --sobre-nos: rgba(161, 145, 145, 0.616);
     --border: 0.1rem solid rgba(255,255,255,0.3)
 }
 
@@ -120,4 +121,45 @@ section {
     background-color: var(--cards);
     transition: 0.2s linear;
     font-size: 1.2rem;
+}
+
+/*SOBRE NÓS*/
+.sobre-nos {
+    max-width: 955px;
+}
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.titulo span {
+    color: var(--cards);
+}
+.sobre-nos-content {
+    display: flex;
+    align-items: center;
+    background-color:var(--sobre-nos);
+    gap: 1.5rem;
+}
+.sobre-nos-content img {
+    width: 50%;
+}
+.cantinho-content h3 {
+    font-size: 1.5rem;
+    color: var(--cards);
+    text-transform: uppercase;
+}
+.cantinho-content p {
+    color: var(--white);
+    font-weight: 200;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+}
+.btn {
+    align-items: center;
+    color: var(--white);
+    font-size: 0.9rem;
 }
