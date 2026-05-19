@@ -163,3 +163,55 @@ section {
     color: var(--white);
     font-size: 0.9rem;
 }
+
+/*CARDAPIO*/
+.menu-item {
+    border: var(--border);
+    padding: 2rem 2rem ;
+    cursor: pointer;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+    background-color: var(--cards);
+    transition: 0.3s linear;
+}
+.menu .menu-content {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr ));
+    gap: 1.5rem;
+    
+}
+.menu-item img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px
+}
+.menu-item h3 {
+    color: var(--cards);
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.menu-item h3:hover {
+    color: var(--white);
+    transition: 0.2s linear;
+}
+.menu-item h4{
+    color: var(--white);
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.menu-item span {
+    color: var(--white);
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+.menu-item .btn:hover {
+    border: var(--white) solid 0.1rem;
+    transition: 0.2s linear;
+    font-size: 1.2rem;
+}
