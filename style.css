@@ -253,3 +253,46 @@ section {
     width: 25px;
     height: 25px;
 }
+ /* ONDE NOS ENCONTRAR? */
+
+.mapa iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 5px;
+}
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background-color: var(--sobre-nos);
+    border-radius: 5px;
+    padding: 2rem;
+ 
+}
+.contato-redes {
+    text-align: center;
+    color: var(--white);
+}
+.contato-redes h3 {
+    color: var(--cards);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.contato-redes img {
+    width: 90px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.contato-redes a {
+    color: var(--white);
+    font-size: 0.9rem;
+}
+/*corrigir com media query- border-right none e padding-right 0*/
+.contato-redes:not(:last-child) {
+    border-right: 1px solid rgba(255,255,255,0.3);
+    padding-right: 150px;
+}
