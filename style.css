@@ -4,12 +4,13 @@
     border: none;
     text-decoration: none;
     list-style: none;
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 :root {
     --fundo-principal: #13131a;
     --fundo-secundario: #211C1B;
+    --fundo-body: #000000;
     --cards: #d3ad7f;
     --white: #ffffff;
     --sobre-nos: rgba(161, 145, 145, 0.616);
@@ -17,7 +18,7 @@
 }
 
 body {
-    background-color: var(--fundo-principal);
+    background-color: var(--fundo-body);
 }
 
 section {
@@ -26,7 +27,7 @@ section {
     max-width: 1200px;
 }
 .header a {
-    color: var(--cards);
+    color: var(--white);
 }
 
 .header {
@@ -35,7 +36,9 @@ section {
     left: 0;
     right: 0;
     z-index: 99;
-    border-bottom: var(--cards) solid 0.1rem;
+    border-bottom: var(--sobre-nos) solid 0.1rem;
+    background-color: var(--cards);
+    
 }
 .header section {
     display: flex;
@@ -43,6 +46,7 @@ section {
     justify-content: space-around;
     padding-top: 1.5rem;
     padding-bottom: 0.8rem;
+    
 }
 .nav ul  {
     display: flex;
@@ -56,8 +60,8 @@ section {
     font-weight: 500;
 }
 .nav a:hover {
-    color: var(--cards);
-    border-bottom: var(--cards) solid 0.1rem;
+    color: var(--fundo-body);
+    border-bottom: var(--fundo-body) solid 0.1rem;
     transition: 0.2s linear;
     font-size: 1.2rem;
 }
