@@ -171,6 +171,7 @@ section {
     border: var(--border);
     padding: 2rem 2rem ;
     cursor: pointer;
+    
 }
 .menu-item:hover {
     transform: scale(1.05);
@@ -182,7 +183,6 @@ section {
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr ));
     gap: 1.5rem;
-    
 }
 .menu-item img {
     width: 5rem;
@@ -191,13 +191,12 @@ section {
 }
 .menu-item h3 {
     color: var(--cards);
+    background-color: var(--fundo-body);
+    border-radius: 10px;
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
-.menu-item h3:hover {
-    color: var(--white);
-    transition: 0.2s linear;
-}
+
 .menu-item h4{
     color: var(--white);
     font-size: 1rem;
