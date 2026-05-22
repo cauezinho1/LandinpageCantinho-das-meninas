@@ -369,4 +369,8 @@ section {
     .cantinho-content {
         text-align: center;
     }
+    .contato-redes:not(:last-child) {
+        border-right: none;
+        padding-right: 0;
+    }
 }
