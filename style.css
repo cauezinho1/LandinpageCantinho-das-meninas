@@ -299,12 +299,14 @@ section {
 
 /*FOOTER*/
 .footer {
-    background-color: var(--fundo-principal);
+    background-color: var(--fundo-body);
     padding: 1rem;
     color: var(--white);
     font-size: 0.9rem;
     margin-top: 1rem;
     border-top: var(--border);
+    width: 88%;
+    margin: auto;
 }
 .footer-content-copy {
     display: flex;
@@ -372,5 +374,9 @@ section {
     .contato-redes:not(:last-child) {
         border-right: none;
         padding-right: 0;
+    }
+    .footer-content-copy {
+        flex-direction: column;
+        text-align: center;
     }
 }
