@@ -268,7 +268,7 @@ section {
     justify-content: space-around;
     gap: 1.5rem;
     margin-top: 2rem;
-    background-color: var(--sobre-nos);
+    background-color: var(--cards);
     border-radius: 5px;
     padding: 2rem;
  
@@ -278,7 +278,7 @@ section {
     color: var(--white);
 }
 .contato-redes h3 {
-    color: var(--cards);
+    color: var(--white);
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
@@ -293,7 +293,7 @@ section {
 }
 /*corrigir com media query- border-right none e padding-right 0*/
 .contato-redes:not(:last-child) {
-    border-right: 1px solid rgba(255,255,255,0.3);
+    border-right: 1px solid var(--fundo-principal);
     padding-right: 150px;
 }
 
